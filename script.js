@@ -40,10 +40,10 @@ function reset(){
   }
 
 // call reset
-reset.addEventListeners("click",reset);
+reset.addEventListener("click", reset);
 
 //making moves
-locationArray.addEventListeners("Click", makingMoves);
+locationArray.addEventListener("Click", makingMoves);
 
 //Let player one make a move, assign value to
 function makingMoves(locationArray){
